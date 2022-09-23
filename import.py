@@ -2,7 +2,6 @@ from time import sleep
 from turtle import color
 import colorama
 from colorama import Fore, Back, Style
-colorama.init()
 
 print ('Hi there! \n')
 y = input("Please tell us, what is your name? My name is: ")
@@ -72,4 +71,3 @@ print (getattr(Fore,color) + getattr(Back,secondColor) + "That's nice! Look how 
 answer = input (getattr(Fore,color) + getattr(Back,secondColor) + "Did you like it? ")
 
 print (getattr(Fore,color) + getattr(Back,secondColor) + y + ", your response was: " + answer + "\n We've submitted that for our support crew! Thank you for your time")
-
