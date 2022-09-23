@@ -68,6 +68,6 @@ secondUsersColor = input ('The color that combined the best was: ')
 secondColor = secondUsersColor.upper()
 
 print (getattr(Fore,color) + getattr(Back,secondColor) + "That's nice! Look how awesome your text font looks like!")
-answer = input (getattr(Fore,color) + getattr(Back,secondColor) + "Did you like it? ")
+answer = input (getattr(Fore,color) + getattr(Back,secondColor) + "Did you like it? Type any comment as you wish. ")
 
 print (getattr(Fore,color) + getattr(Back,secondColor) + y + ", your response was: " + answer + "\n We've submitted that for our support crew! Thank you for your time")

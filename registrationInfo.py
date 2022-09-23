@@ -20,6 +20,10 @@ print (email.lower())
 print (f'({phone_number[0:3]})  {phone_number[3:6]}-{phone_number[6:10]}')
 print ()
 
+# I made with random just to learn how to use it, but I aware that
+# I should use "input" in a real scenario.
+
+
 hair=["Brown", "Blonde", "Brunette", "Grey", "Ginger", "Fair"]
 eyes=["Blue", "Black", "Brown", "Hazel", "Amber", "Green", "Gray"]
 months=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
